@@ -1,15 +1,8 @@
-Monday = True
-Tuesday = True
-Wednesday = True
-Thursday = True
-Friday = False
+name=input("Enter your name")
 
+while (name==""):
+    print("Please input your name, no entry")
+    name=input("Enter your name")
 
-def checkgym(day):
-    if day:
-        print("You have gym today")
-    else:
-        print("rest day")
-
-checkgym(Friday)
-
+else:
+    print(f"Your name is {name}")
